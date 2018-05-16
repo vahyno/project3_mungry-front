@@ -123,8 +123,8 @@ console.log(22, this.state)
             <div className="input-field col s12">
               <input onChange={ this.handleThumbnailChange } value={this.state.thumbnail} placeholder="Add image source" id="image" type="text" className="validate"/>
             </div>
-            <button className="waves-effect waves-light indigo lighten-2 btn right update-delete-btn" type="submit" name="action">Update</button>
-            <Link to ={`/recipes/${recipeId}`} className="waves-effect waves-light indigo lighten-2 btn right update-delete-btn">Cancel</Link>
+            <button className="waves-effect waves-light indigo lighten-2 btn" type="submit" name="action">Update</button>
+            <Link to ={`/recipes/${recipeId}`} className="waves-effect waves-light indigo lighten-2 btn update-button">Cancel</Link>
           </form>
         </div>
 
